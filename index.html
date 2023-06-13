@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>Hello World!</title>
@@ -6,5 +7,29 @@
   <body>
     <h1>Welcome All</h1>
     <p>This Website is For Converting ASCII Decimal into Characters</p>
+    <br><br>
+    <form>
+      Input Decimal: 
+      <input type="text" id="Input3" size="50">
+      <button id="button">Convert</button>
+      <br><br>
+      ASCII Characters: 
+      <input type="text" id="output4" size="50">
+      <p id="demo"></p>
+      <script>
+        document.getElementById("myBtn").addEventListener("click", inputconvert());
+        function inputconvert()
+        {
+          var user = document.getElementById("Input3");
+          var output3 = document.getElemntById("demo");
+          output3.innerHTML = user.value;
+          event.preventDefault();
+        }
+        /*function clear3()
+        {
+          alert("Clicked");
+        }*/
+      </script>
+    </form>
   </body>
 </html>
