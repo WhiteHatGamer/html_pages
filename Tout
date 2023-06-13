@@ -1,0 +1,21 @@
+<body> - every elements comes under body tag
+<p>    - paragraph
+<a>    - hyperlink
+<td>   - table data
+<br>   - break
+<meta> - used by search engine optimizations
+<input>- types of elements that can include like text,button,box etc
+<b>    - Bold tag
+<h1>   - Heading Tags
+<h2>   - Heading Tags we can give more by numbers up to 6
+
+
+give unique id for every tag?by using id property
+Web scraping:
+    extract data from website
+    using id property
+    calling them as selector
+    using id,class,name ect
+
+main purpose of class for css
+classifying or grouping elements for similar tags/parts
